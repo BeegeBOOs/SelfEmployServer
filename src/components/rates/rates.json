@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_rates_rates",
+  "info": {
+    "displayName": "Rates",
+    "icon": "chart-bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "duration": {
+      "required": true,
+      "type": "integer"
+    },
+    "freelancerName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
